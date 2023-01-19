@@ -1,5 +1,5 @@
 .title.title__big {
-  color: #ff0066 !important;
+  color: #2167ae !important;
   font-size: 24px;
   font-weight: 700;
   margin-top: 0px;
@@ -9,7 +9,7 @@
 
 
 .title.title__medium {
-  color: #ff0066;
+  color: #2167ae;
   font-size: 15px !important;
   font-weight: 700;
   margin-top: 0px;
@@ -24,12 +24,12 @@ body {
   --lumo-font-family: "Open Sans", sans-serif;
   --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
   --lumo-primary-color-20pct: rgba(40, 96, 125, 1);
-  --lumo-body-text-color: #ff0066 !important;
-  --lumo-header-text-color: #ff0066 !important;
+  --lumo-body-text-color: #2167ae !important;
+  --lumo-header-text-color: #2167ae !important;
   --lumo-primary-text-color: rgba(255, 255, 255, 1);
   --lumo-secondary-text-color: rgba(50, 58, 63, 1);
   --lumo-disabled-text-color: rgba(165, 169, 171, 1);
-  --lumo-primary-contrast-color: #ff0066 !important;
+  --lumo-primary-contrast-color: #2167ae !important;
   --lumo-contrast: rgba(255, 255, 255, 1);
   --lumo-contrast-30pct: rgba(255, 255, 255, 1);
   --lumo-contrast-20pct: rgba(255, 255, 255, 1);
@@ -81,17 +81,17 @@ body {
   --radiobutton-background-color: var(--lumo-contrast);
   --radiobutton-border-color: var(--lumo-shade-30pct);
   --loading-indicator-color: #9ADCFF;
-  --lumo-primary-color: #ff0066 !important;
+  --lumo-primary-color: #2167ae !important;
 }
 
 .expand {
-    filter: invert(21%) sepia(97%) saturate(6766%) hue-rotate(329deg) brightness(97%) contrast(108%);
+    filter: invert(34%) sepia(7%) saturate(6194%) hue-rotate(172deg) brightness(104%) contrast(96%);
 }
 
 .collapse {
-    filter: invert(21%) sepia(97%) saturate(6766%) hue-rotate(329deg) brightness(97%) contrast(108%);
+    filter: invert(34%) sepia(7%) saturate(6194%) hue-rotate(172deg) brightness(104%) contrast(96%);
 }
 
 .arrowleftthin {
-    filter: invert(21%) sepia(97%) saturate(6766%) hue-rotate(329deg) brightness(97%) contrast(108%);
+    filter: invert(34%) sepia(7%) saturate(6194%) hue-rotate(172deg) brightness(104%) contrast(96%);
 }
