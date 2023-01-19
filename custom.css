@@ -83,3 +83,19 @@ body {
   --loading-indicator-color: #9ADCFF;
   --lumo-primary-color: #ff0066 !important;
 }
+
+.expand {
+    filter: invert(21%) sepia(97%) saturate(6766%) hue-rotate(329deg) brightness(97%) contrast(108%);
+}
+
+.collapse {
+    filter: invert(21%) sepia(97%) saturate(6766%) hue-rotate(329deg) brightness(97%) contrast(108%);
+}
+
+.expand {
+    filter: invert(21%) sepia(97%) saturate(6766%) hue-rotate(329deg) brightness(97%) contrast(108%);
+}
+
+.arrowleftthin {
+    filter: invert(21%) sepia(97%) saturate(6766%) hue-rotate(329deg) brightness(97%) contrast(108%);
+}
