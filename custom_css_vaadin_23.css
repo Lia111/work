@@ -1,5 +1,5 @@
 .title.title__big {
-  color: #2167ae;
+  color: #2167ae !importan;
   font-size: 24px;
   font-weight: 700;
   margin-top: 0px;
@@ -24,8 +24,8 @@ body {
   --lumo-font-family: "Open Sans", sans-serif;
   --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
   --lumo-primary-color-20pct: rgba(40, 96, 125, 1);
-  --lumo-body-text-color: #2167ae;
-  --lumo-header-text-color: #2167ae;
+  --lumo-body-text-color: #2167ae !important;
+  --lumo-header-text-color: #2167ae !important;
   --lumo-primary-text-color: rgba(255, 255, 255, 1);
   --lumo-secondary-text-color: rgba(50, 58, 63, 1);
   --lumo-disabled-text-color: rgba(165, 169, 171, 1);
@@ -81,5 +81,5 @@ body {
   --radiobutton-background-color: var(--lumo-contrast);
   --radiobutton-border-color: var(--lumo-shade-30pct);
   --loading-indicator-color: #9ADCFF;
-  --lumo-primary-color: #2167ae;
+  --lumo-primary-color: #2167ae !important;
 }
