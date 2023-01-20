@@ -85,13 +85,13 @@ body {
 }
 
 .expand {
-    filter: invert(34%) sepia(7%) saturate(6194%) hue-rotate(172deg) brightness(104%) contrast(96%);
+    filter: invert(27%) sepia(96%) saturate(1214%) hue-rotate(191deg) brightness(93%) contrast(83%);
 }
 
 .collapse {
-    filter: invert(34%) sepia(7%) saturate(6194%) hue-rotate(172deg) brightness(104%) contrast(96%);
+    filter: invert(27%) sepia(96%) saturate(1214%) hue-rotate(191deg) brightness(93%) contrast(83%);
 }
 
 .arrowleftthin {
-    filter: invert(34%) sepia(7%) saturate(6194%) hue-rotate(172deg) brightness(104%) contrast(96%);
+    filter: invert(27%) sepia(96%) saturate(1214%) hue-rotate(191deg) brightness(93%) contrast(83%);
 }
