@@ -18,7 +18,9 @@
   display: flex;
 }
 
-
+.primary-color-icon {
+    color: red;
+}
 
 body {
   --lumo-font-family: "Open Sans", sans-serif;
