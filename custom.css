@@ -22,6 +22,23 @@
     color: red;
 }
 
+
+.button.button__secondary {
+  color: yellowgreen;
+  font-weight: 700;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.button.button__primary {
+  background-color: yellowgreen;
+  color: var(--lumo-contrast);
+  font-weight: 700;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+
 body {
   --lumo-font-family: "Open Sans", sans-serif;
   --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
