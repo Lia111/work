@@ -23,26 +23,18 @@
 }
 
 
-.button.button__secondary {
-  color: yellowgreen !important;
-  font-weight: 700;
-  line-height: 16px;
-  font-size: 12px;
-}
-
-.button.button__primary {
-  background-color: yellowgreen !important;
-  color: var(--lumo-contrast);
-  font-weight: 700;
-  line-height: 16px;
-  font-size: 12px;
+.uwp-login {
+  background: #2167ae;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 
 body {
   --lumo-font-family: "Open Sans", sans-serif;
-  --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
-  --lumo-primary-color-20pct: rgba(40, 96, 125, 1);
+  --lumo-primary-color-10pct: #2167ae !important;
+  --lumo-primary-color-20pct: #2167ae !important;
   --lumo-body-text-color: #2167ae !important;
   --lumo-header-text-color: #2167ae !important;
   --lumo-primary-text-color: rgba(255, 255, 255, 1);
