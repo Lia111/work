@@ -24,14 +24,14 @@
 
 
 .button.button__secondary {
-  color: yellowgreen;
+  color: yellowgreen !important;
   font-weight: 700;
   line-height: 16px;
   font-size: 12px;
 }
 
 .button.button__primary {
-  background-color: yellowgreen;
+  background-color: yellowgreen !important;
   color: var(--lumo-contrast);
   font-weight: 700;
   line-height: 16px;
