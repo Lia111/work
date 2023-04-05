@@ -34,7 +34,7 @@
 
 
 body {
-  --lumo-font-family: "Open Sans", sans-serif;
+  --lumo-font-family: "Courier New";
   --lumo-primary-color-10pct: #2167ae !important;
   --lumo-primary-color-20pct: #2167ae !important;
   --lumo-body-text-color: #2167ae !important;
