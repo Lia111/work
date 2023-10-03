@@ -1,5 +1,5 @@
 .uwp-login {
-  background: #2167ae;
+  background: #008c8c;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -8,14 +8,14 @@
 
 body {
   --lumo-font-family: "Open Sans", sans-serif;
-  --lumo-primary-color-10pct: #2167ae !important;
-  --lumo-primary-color-20pct: #2167ae !important;
-  --lumo-body-text-color: #2167ae !important;
-  --lumo-header-text-color: #2167ae !important;
+  --lumo-primary-color-10pct: #008c8c !important;
+  --lumo-primary-color-20pct: #008c8c !important;
+  --lumo-body-text-color: #008c8c !important;
+  --lumo-header-text-color: #008c8c !important;
   --lumo-primary-text-color: rgba(255, 255, 255, 1);
   --lumo-secondary-text-color: rgba(50, 58, 63, 1);
   --lumo-disabled-text-color: rgba(165, 169, 171, 1);
-  --lumo-primary-contrast-color: #2167ae !important;
+  --lumo-primary-contrast-color: #008c8c !important;
   --lumo-contrast: rgba(255, 255, 255, 1);
   --lumo-contrast-30pct: rgba(255, 255, 255, 1);
   --lumo-contrast-20pct: rgba(255, 255, 255, 1);
@@ -67,5 +67,5 @@ body {
   --radiobutton-background-color: var(--lumo-contrast);
   --radiobutton-border-color: var(--lumo-shade-30pct);
   --loading-indicator-color: #9ADCFF;
-  --lumo-primary-color: #2167ae !important;
+  --lumo-primary-color: #008c8c !important;
 }
