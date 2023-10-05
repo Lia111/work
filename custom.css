@@ -1,3 +1,11 @@
+#header {
+  justify-content:space-between;
+  height:80px;
+  background-image:none;
+  background-color: #1a9898; /* tint of #008c8c*/
+  background-size:cover
+}
+
 .uwp-login {
   background: #008c8c;
   width: 100%;
