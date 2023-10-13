@@ -33,7 +33,7 @@
 }
 
 body {
-  --lumo-font-family: "FiraSans-Regular", sans-serif;
+  --lumo-font-family: "FiraSans-Regular";
   --lumo-primary-color-10pct: #00718f !important;
   --lumo-primary-color-20pct: #00718f !important;
   --lumo-body-text-color: #00718f !important;
