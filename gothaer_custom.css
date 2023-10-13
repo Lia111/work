@@ -1,24 +1,10 @@
-/*@font-face {
-    font-family: 'Roboto-Bold';
-    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+@font-face {
+    font-family: 'FiraSans-Regular';
+    src: url(fonts/FiraSans-Regular.ttf) format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Roboto-Light';
-    src: url(fonts/Roboto-Light.ttf) format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url(fonts/Roboto-Regular.ttf) format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-*/
 #fastentry-header {
     background-image: none;
     background-color: #006B88;
@@ -47,7 +33,7 @@
 }
 
 body {
-  --lumo-font-family: "Open Sans", sans-serif;
+  --lumo-font-family: "FiraSans-Regular", sans-serif;
   --lumo-primary-color-10pct: #00718f !important;
   --lumo-primary-color-20pct: #00718f !important;
   --lumo-body-text-color: #00718f !important;
