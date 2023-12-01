@@ -96,20 +96,51 @@ body {
   --lumo-primary-color: #00718f !important;
 }
 
-#DynamicFieldNumerical_SFC_0_1_1_1460_3_244849_C_PROD_GUI_BAU_PRAEMIE_BASIS_GESBEI_C_PROD_GUI_BAU_PRAEMIE_BASIS_GESBEI
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_15 > .column.table-component-column > .cRow > .sftable_field
 {
   position: relative;
-  left: -260px;
+  left: -224px;
 }
 
-#DynamicFieldNumerical_SFC_0_1_1_1460_1_244846_C_PROD_GUI_BAU_PRAEMIE_BASIS_TK5290_12_C_PROD_GUI_BAU_PRAEMIE_BASIS_TK5290_12
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_15 > .column.sftable_emptyfield
 {
-  position: relative;
-  left: -260px;
+  width: 250px;
 }
 
-#DynamicFieldNumerical_SFC_0_1_1_1460_3_244850_C_PROD_GUI_BAU_PRAEMIE_BASIS_TOTAL_C_PROD_GUI_BAU_PRAEMIE_BASIS_TOTAL
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_17 > .column.table-component-column > .cRow > .sftable_field
 {
   position: relative;
-  left: -260px;
+  left: -224px;
+}
+
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_17 > .column.sftable_emptyfield
+{
+  width: 250px;
+}
+
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_17 > .column.sftable_emptyfield
+{
+  width: 250px;
+}
+
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_19 > .column.table-component-column > .cRow > .sftable_field
+{
+  position: relative;
+  left: -224px;
+}
+
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_19 > .column.sftable_emptyfield
+{
+  width: 250px;
+}
+
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_20 > .column.table-component-column > .cRow > .sftable_field
+{
+  position: relative;
+  left: -224px;
+}
+
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_20 > .column.sftable_emptyfield
+{
+  width: 250px;
 }
