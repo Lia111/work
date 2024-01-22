@@ -1,0 +1,10 @@
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_17 > .column.sftable_emptyfield
+{
+  width: 250px;
+}
+
+.C_PROD_GUI_BAU_EP_TAB_VU > .row_index_19 > .column.table-component-column > .cRow > .sftable_field
+{
+  position: relative;
+  left: -224px;
+}
