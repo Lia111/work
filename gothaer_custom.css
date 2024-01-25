@@ -5,11 +5,13 @@
     font-style: normal;
 }
 */
+
+/* Ersetzen des Images in der Menuleiste*/
 #fastentry-header {
     background-image: none;
     background-color: #006B88;
 }
-
+/* Ersetzen des Images in der Menuleiste*/
 #header {
   justify-content:space-between;
   height:80px;
