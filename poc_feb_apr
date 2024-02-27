@@ -65,11 +65,16 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
+/*Logogrösse im Anmeldefenster*/
+.login-company-logo {
+    width: 308px;
+}
+
 /*Ersetzen des Images im Anmeldefenster*/
 .uwp-login-logo-container {
     background-image: none;
     background-color: #e7effb; /*Hellblau*/
-    padding: 10px 15px;
+    padding: 0px 0px;
     display: flex;
 }
 
