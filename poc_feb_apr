@@ -8,6 +8,14 @@
 }
 */
 
+#companyLogo {
+  height: 53px;
+  width: 171px;
+  margin-left: 27px;
+  margin-right: 40px;
+  mix-blend-mode: inherit; /*geändert, damit Logo sichtbar ist*/
+  align-self: center;
+}
 
 .required-icon {
     color: #ff0026; /*red*/
