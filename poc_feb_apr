@@ -70,7 +70,7 @@ body {
   --lumo-primary-text-color: #024589;
   --lumo-secondary-text-color: rgba(50, 58, 63, 1);
   --lumo-disabled-text-color: rgba(165, 169, 171, 1);
-  --lumo-primary-contrast-color: rgba(50, 120, 157, 1);
+  --lumo-primary-contrast-color: #024589; /*Dunkelblau*/
   --lumo-contrast: rgba(255, 255, 255, 1);
   --lumo-contrast-30pct: rgba(255, 255, 255, 1);
   --lumo-contrast-20pct: rgba(255, 255, 255, 1);
