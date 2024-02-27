@@ -10,10 +10,11 @@
 */
 
 .button.button__primary {
-  color: #024589;
+  color: #024589; /*Schriftfarbe dunkelblau*/
   font-weight: 700;
   line-height: 16px;
   font-size: 12px;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,10 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   --lumo-font-family: "Open Sans", sans-serif;
-  --lumo-primary-color: rgba(50, 120, 157, 1);
-  --lumo-primary-color-10pct: #e2eaf5;
-  --lumo-primary-color-20pct: #e2eaf5;
-  --lumo-body-text-color: rgba(50, 120, 157, 1);
+  --lumo-primary-color: #024589; /*Dunkelblau*/ 
+  --lumo-primary-color-10pct: #e2eaf5; /*Shade of Hellblau*/
+  --lumo-primary-color-20pct: #e2eaf5; /*Shade of Hellblau*/
+  --lumo-body-text-color: #024589; /*Dunkelblau*/
   --lumo-header-text-color: rgba(50, 120, 157, 1);
   --lumo-primary-text-color: #024589;
   --lumo-secondary-text-color: rgba(50, 58, 63, 1);
@@ -115,6 +116,6 @@ body {
   --tooltip-text-color: var(--lumo-secondary-text-color);
   --tooltip-font-size: var(--lumo-font-size-s);
   --tooltip-background-color: var(--lumo-shade-20pct);
-  --menu-bar-item-color: var(--lumo-contrast);
+  --menu-bar-item-color: #024589; /*Dunkelblau*/ 
   font-family: var(--lumo-font-family);
 }
