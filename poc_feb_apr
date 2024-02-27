@@ -9,9 +9,9 @@
 */
 
 #companyLogo {
-  height: 53px;
-  width: 171px;
-  margin-left: 27px;
+  height: 80px;
+  width: 210px;
+  margin-left: 20px;
   margin-right: 40px;
   mix-blend-mode: inherit; /*geändert, damit Logo sichtbar ist*/
   align-self: center;
