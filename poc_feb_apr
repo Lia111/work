@@ -6,12 +6,12 @@
 	font-weight: 400;
 	font-style: normal;
 }
+*/
+
 
 .required-icon {
     color: #ff0026; /*red*/
 }
-
-*/
 
 .button.button__primary {
   color: #024589; /*Schriftfarbe dunkelblau*/
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Ersetzen des Images im Anmeldefenster*/
 .uwp-login-logo-container {
     background-image: none;
-    background-color: #f3f7fc;
+    background-color: #e7effb; /*Hellblau*/
     padding: 10px 15px;
     display: flex;
 }
