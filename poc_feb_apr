@@ -35,7 +35,7 @@
 
 /*Infotext erscheint rot*/
 vaadin-text-area[disabled].sfc-INFO > textarea {
-  color :red;
+  color :red !important;
   -webkit-text-fill-color: red;
 }
 
