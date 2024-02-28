@@ -33,6 +33,19 @@
 
 }
 
+/*Infotext erscheint rot*/
+vaadin-text-area[disabled].sfc-INFO > textarea {
+  color :red;
+  -webkit-text-fill-color: red;
+}
+
+/*Warntext erscheint rot*/
+vaadin-text-area[disabled].sfc-WARNING > textarea {
+  color :red;
+  -webkit-text-fill-color: red;
+}
+
+
 [part="date"][selected] {
   color: var(--lumo-contrast);
   background-color: #b4cf35;
