@@ -40,9 +40,8 @@ vaadin-text-area[disabled].sfc-INFO > textarea {
 }
 
 /*Warntext erscheint rot*/
-vaadin-text-area[disabled].sfc-WARNING > textarea {
+.sfc-WARNING {
   color :red;
-  -webkit-text-fill-color: red;
 }
 
 
