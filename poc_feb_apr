@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Ubuntu-Bold';
-	src: url("../../../../../universal/VAADIN/themes/custom/fonts/Ubuntu-Bold.ttf")
+	font-family: 'Ubuntu-Regular';
+	src: url("../../../../../universal/VAADIN/themes/custom/fonts/Ubuntu-Regular.ttf")
 		format("truetype");
 	font-weight: 400;
 	font-style: normal;
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  --lumo-font-family: "Ubuntu-Bold", sans-serif;
+  --lumo-font-family: "Ubuntu-Regular", sans-serif;
   --lumo-primary-color: #024589; /*Dunkelblau*/ 
   --lumo-primary-color-10pct: #e2eaf5; /*Shade of Hellblau*/
   --lumo-primary-color-20pct: #e2eaf5; /*Shade of Hellblau*/
