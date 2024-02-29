@@ -94,6 +94,15 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
+/*Padding left von Erfassungsmaske*/
+:host(#PanelDynamic) {
+  padding-left: 25px;
+  padding-top: 22px;
+  height: calc(100% - 48px);
+  overflow-y: auto;
+  display: block !important;
+}
+
 body {
   --lumo-font-family: "Ubuntu-Regular", sans-serif;
   --lumo-primary-color: #024589; /*Dunkelblau*/ 
