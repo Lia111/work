@@ -95,12 +95,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Padding left von Erfassungsmaske*/
-:host(#PanelDynamic) {
-  padding-left: 25px;
-  padding-top: 22px;
-  height: calc(100% - 48px);
-  overflow-y: auto;
-  display: block !important;
+#PanelDynamic {
+  padding-left: 19px;
+}
 }
 
 body {
