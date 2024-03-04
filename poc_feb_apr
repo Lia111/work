@@ -104,6 +104,25 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px;
 }
 
+/*Schriftgrösse 13px anstatt 12px*/
+[class*=table_column] label, .table_column_start label {
+    font-size: 13px;
+}
+
+label {
+    font-size: 13px;
+
+}
+
+vaadin-checkbox label {
+
+    font-size: 13px;
+}
+
+.form .form--row .form--column .form--label, .form .form--row .form--column .form--message {
+    font-size: 13px;
+}
+
 
 body {
   --lumo-font-family: "Ubuntu-Regular", sans-serif;
