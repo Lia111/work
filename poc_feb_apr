@@ -35,7 +35,6 @@
 
 .button.button__primary:hover {
   background-color: #92a928;
-
 }
 
 /*Infotext erscheint rot -> in aktueller GUI component Version nicht übersteuerbar*/
@@ -111,11 +110,9 @@ h1, h2, h3, h4, h5, h6 {
 
 label {
     font-size: 13px;
-
 }
 
 vaadin-checkbox label {
-
     font-size: 13px;
 }
 
@@ -123,6 +120,10 @@ vaadin-checkbox label {
     font-size: 13px;
 }
 
+/*Padding verändert damit Schrift im Button zentriert ist*/
+.container_with_button.button {
+    padding-left: 10px;
+}
 
 body {
   --lumo-font-family: "Ubuntu-Regular", sans-serif;
