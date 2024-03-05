@@ -125,6 +125,35 @@ vaadin-checkbox label {
     padding-left: 10px;
 }
 
+/*WARNING, ERROR und INFO*/
+.form .form--row .form--column.sfc-WARNING{
+	min-width: 0px;
+	max-width: unset;
+	width:0px;
+	border-bottom-color: transparent!important;
+}
+ 
+.form--label.sfc-WARNING{
+	display:none;
+}
+.form .form--row .form--column.sfc-ERROR{
+	min-width: 0px;
+	max-width: unset;
+	width:0px;
+	border-bottom-color: transparent!important;
+}
+
+.form .form--row .form--column.sfc-INFO{
+	min-width: 0px;
+	max-width: unset;
+	width:0px;
+	border-bottom-color: transparent!important;
+}
+
+.form--label.sfc-INFO{
+	display:none;
+}
+
 body {
   --lumo-font-family: "Ubuntu-Regular", sans-serif;
   --lumo-primary-color: #024589; /*Dunkelblau*/ 
