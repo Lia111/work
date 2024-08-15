@@ -85,7 +85,7 @@ background-size:cover
   justify-content: center;
 }
 
-/*Für Text, der ausgegeben wird in Warnung und Info*/
+/*Fuer Text, der ausgegeben wird in Warnung und Info*/
 :host(.sfc-WARNING) [part=input-field] ::slotted(textarea) {
   background: transparent !important;
   border: none !important;
@@ -102,7 +102,7 @@ background-size:cover
 */
 
 
-/*REQUIRED-ASTERISK UND DROPDOWN-EINSTELLUNGEN*/
+/*REQUIRED-ICON UND DROPDOWN-EINSTELLUNGEN*/
 
 /*Required-Icon (Asterisk) Farbe wechseln*/
 .required-icon {
