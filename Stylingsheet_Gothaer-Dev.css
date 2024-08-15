@@ -1,0 +1,182 @@
+/*SCHRIFTART*/
+
+/* Bis auf weiteres wird Default verwendet
+@font-face {
+    font-family: 'FiraSans-Regular';
+    src: url("../../../../../universal/VAADIN/themes/custom/fonts/FiraSans-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+
+
+/*LOGINSEITE*/
+
+/*Loginseite Hintergrund*/
+.uwp-login {
+  background: #00718f;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Loginseite Hintergrund Logo*/
+.uwp-login-logo-container {
+    background-image: none;
+    background-color: #00718f;
+    padding: 10px 15px;
+    display: flex;
+}
+
+/*Loginseite Login-Button*/
+.button.button__primary.login-button.login-form-field {
+  background-color: #00718f;
+}
+
+
+/*HEADER*/
+
+/* Ersetzen des Images in der Menuleiste*/
+#fastentry-header {
+  background-image: none;
+  background-color: #006B88; /* tint of #00718f*/
+}
+/* Ersetzen des Images in der Menuleiste*/
+#header {
+justify-content:space-between;
+height:80px;
+background-image:none;
+background-color: #006B88; /* tint of #00718f*/
+background-size:cover
+}
+
+
+/*BUTTONS*/
+
+.button.button__primary {
+  background-color: #338da5;
+}
+
+.button.button__primary:hover {
+  background-color: #00718f;
+}
+
+.button.button__primary:focus-visible {
+  background-color: #00718f;
+  outline: none; /* Standardmässige Umrandung entfernen */
+  border-image: linear-gradient(to right, #8dd1de, #abdee8, #c4e8ee, #d8f0f3, #e7f5f8, #f2fafb) 1; /*Rand mit Farbverlauf*/
+}
+
+.button.button__primary:active {
+    background-color: #00516f;
+}
+
+.button.button__primary:disabled {
+    background-color: #e0e0e0;
+}
+
+
+/*INFO UND WARNMELDUNGEN*/
+
+.sfc-WARNING {
+  color: transparent  !important; /*Für Labeltext "WARNUNG" und "INFO", aber Vorweg ausblenden*/
+  opacity: 1 !important;
+  border-bottom-color: transparent  !important; /*Für Underline, aber Vorweg ausblenden*/
+  justify-content: center;
+}
+
+/*Für Text, der ausgegeben wird in Warnung und Info*/
+:host(.sfc-WARNING) [part=input-field] ::slotted(textarea) {
+  background: transparent !important;
+  border: none !important;
+  color: #800905 !important;
+  opacity: 1 !important;
+  resize: none;
+  -webkit-text-fill-color: #800905 !important;
+}
+
+/* Falls Padding der Textarea angepasst werden muss
+.sfc-WARNING textarea {
+  padding-top: 1em;
+}
+*/
+
+
+/*REQUIRED-ASTERISK UND DROPDOWN-EINSTELLUNGEN*/
+
+/*Required-Icon (Asterisk) Farbe wechseln*/
+.required-icon {
+  color: #800905 !important;
+}
+
+/* Selektiere das erste Element aller Dropdown-Menüs mit dem Attribut 'role="listbox"' und blende es aus*/
+[role="listbox"] vaadin-combo-box-item:first-child {
+  display: none;
+}
+
+
+/*GENERELL BODY*/
+
+body {
+  --lumo-font-family: "Open Sans", sans-serif;
+  --lumo-primary-color-10pct: #00718f !important;
+  --lumo-primary-color-20pct: #00718f !important;
+  --lumo-body-text-color: #00718f !important;
+  --lumo-header-text-color: #00718f !important;
+  --lumo-primary-text-color: rgba(255, 255, 255, 1);
+  --lumo-secondary-text-color: rgba(50, 58, 63, 1);
+  --lumo-disabled-text-color: rgba(165, 169, 171, 1);
+  --lumo-primary-contrast-color: #00718f !important;
+  --lumo-contrast: rgba(255, 255, 255, 1);
+  --lumo-contrast-30pct: rgba(255, 255, 255, 1);
+  --lumo-contrast-20pct: rgba(255, 255, 255, 1);
+  --vaadin-app-layout-navbar-offset-size: 80px;
+  --lumo-button-size: 32px;
+  --lumo-text-field-size: 32px;
+  --lumo-shade: rgba(50, 58, 63, 1);
+  --lumo-shade-5pct: rgba(245, 245, 245, 1);
+  --lumo-shade-10pct: rgba(231, 232, 233, 1);
+  --lumo-shade-20pct: rgba(207, 210, 211, 1);
+  --lumo-shade-30pct: rgba(165, 169, 171, 1);
+  --lumo-shade-40pct: rgba(126, 132, 135, 1);
+  --lumo-shade-50pct: rgba(87, 94, 98, 1);
+  --lumo-shade-60pct: rgba(50, 58, 63, 1);
+  --lumo-shade-70pct: rgba(50, 58, 63, 1);
+  --lumo-shade-80pct: rgba(50, 58, 63, 1);
+  --lumo-shade-90pct: rgba(50, 58, 63, 1);
+  --lumo-shade-hover: rgba(186, 186, 186, .1);
+  --lumo-font-size-xs: 10px;
+  --lumo-font-size-s: 12px;
+  --lumo-font-size-m: 13px;
+  --lumo-line-height-xs: 15px;
+  --lumo-line-height-s: 16px;
+  --lumo-line-height-m: 20px;
+  --lumo-font-weight-s: 400;
+  --lumo-font-weight-l: 700;
+  --lumo-success-color: rgba(210, 239, 230, 1);
+  --lumo-success-contrast-color: rgba(29, 176, 131, 1);
+  --lumo-error-color: rgba(247, 215, 220, 1);
+  --lumo-error-contrast-color: rgba(215, 57, 81, 1);
+  --lumo-warning-color: rgba(255, 231, 204, 1);
+  --lumo-warning-contrast-color: rgba(255, 133, 0, 1);
+  --iron-icon-width: 16px;
+  --iron-icon-height: 16px;
+  --menu-bar-width: 159px;
+  --lumo-size-m: 32px;
+  --lumo-space-xs: 6px;
+  --menu-bar-height: var(--vaadin-app-layout-navbar-offset-size);
+  --lumo-icon-size-m: 16px;
+  --vaadin-combo-box-overlay-max-height: 176px;
+  --lumo-space-m: 16px;
+  --toggle-button-width: 36px;
+  --clear-button-width: 36px;
+  --vaadin-infinite-scroller-buffer-width: 276px;
+  --required-icon-color: var(--lumo-primary-color);
+  --fastentry-treegrid-checkbox-border-color: var(--lumo-shade-30pct);
+  --fastentry-treegrid-checkbox-background-color: var(--lumo-contrast);
+  --fastentry-treegrid-checkbox-color: var(--lumo-primary-color);
+  --radiobutton-background-color: var(--lumo-contrast);
+  --radiobutton-border-color: var(--lumo-shade-30pct);
+  --loading-indicator-color: #9ADCFF;
+  --lumo-primary-color: #00718f !important;
+}
