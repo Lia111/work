@@ -79,24 +79,36 @@ background-size:cover
 /*INFO UND WARNMELDUNGEN*/
 
 .sfc-WARNING {
-  color: transparent  !important; /*Für Labeltext "WARNUNG" und "INFO", aber Vorweg ausblenden*/
+  color: transparent  !important; /*Für Labeltext "WARNUNG", aber Vorweg ausblenden*/
   opacity: 1 !important;
   border-bottom-color: transparent  !important; /*Für Underline, aber Vorweg ausblenden*/
   justify-content: center;
 }
 
-/*Fuer Text, der ausgegeben wird in Warnung und Info*/
-:host(.sfc-WARNING) [part=input-field] ::slotted(textarea) {
-  background: transparent !important;
-  border: none !important;
-  color: #800905 !important;
+.sfc-INFO {
+  color: transparent  !important; /*Für Labeltext "INFO", aber Vorweg ausblenden*/
   opacity: 1 !important;
-  resize: none;
-  -webkit-text-fill-color: #800905 !important;
+  border-bottom-color: transparent  !important; /*Für Underline, aber Vorweg ausblenden*/
+  justify-content: center;
+}
+
+/*Für Text, der ausgegeben wird in Warnmeldung*/
+.sfc-WARNING.S_WARNING textarea {
+  -webkit-text-fill-color: #E1100A !important;
+  color: #E1100A !important;
+}
+
+/*Für Text, der ausgegeben wird in Infomeldung*/
+.sfc-INFO.S_INFOMELDUNG textarea {
+  -webkit-text-fill-color: rgb(120 180 196 / 50%) !important;
+  color: rgb(120 180 196 / 50%) !important;
 }
 
 /* Falls Padding der Textarea angepasst werden muss
 .sfc-WARNING textarea {
+  padding-top: 1em;
+}
+.sfc-INFO textarea {
   padding-top: 1em;
 }
 */
