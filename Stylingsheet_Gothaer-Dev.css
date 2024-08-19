@@ -92,13 +92,13 @@ background-size:cover
   justify-content: center;
 }
 
-/*Für Text, der ausgegeben wird in Warnmeldung*/
+/*Fuer Text, der ausgegeben wird in Warnmeldung*/
 .sfc-WARNING.S_WARNING textarea {
   -webkit-text-fill-color: #E1100A !important;
   color: #E1100A !important;
 }
 
-/*Für Text, der ausgegeben wird in Infomeldung*/
+/*Fuer Text, der ausgegeben wird in Infomeldung*/
 .sfc-INFO.S_INFOMELDUNG textarea {
   -webkit-text-fill-color: rgb(120 180 196 / 50%) !important;
   color: rgb(120 180 196 / 50%) !important;
