@@ -55,6 +55,7 @@ background-size:cover
 
 .button.button__primary {
   background-color: #338da5;
+  color: white;
 }
 
 .button.button__primary:hover {
@@ -91,7 +92,7 @@ background-size:cover
   opacity: 1 !important;
   border-bottom-color: transparent  !important; /*Für Underline, aber Vorweg ausblenden*/
   justify-content: center;
-  width: 0px; /*damit Box ausgeblendet wird und Warnmeldung linksbündig*/
+  width: 0px; /*damit Box ausgeblendet wird und Infomeldung linksbündig*/
 }
 
 /*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbündig möglich*/
@@ -104,23 +105,28 @@ background-size:cover
   -webkit-text-fill-color: #E1100A !important;
   color: #E1100A !important;
   font-weight: bold !important;
-  padding-left: 0px; /*damit linksbündig*/
+  padding-left: 0px;
+  padding-top: 15px;
 }
 
 /*Für Text, der ausgegeben wird in Infomeldung*/
 .sfc-INFO.S_INFOMELDUNG textarea {
-  -webkit-text-fill-color: #00718f !important;
-  color: #00718f !important;
+  -webkit-text-fill-color: #778e00 !important;
+  color: #778e00 !important;
   font-weight: bold !important;
-  padding-left: 0px; /*damit linksbündig*/
+  padding-left: 0px;
+  padding-top: 15px;
 }
 
-/*REQUIRED-ICON UND DROPDOWN-EINSTELLUNGEN*/
+
+/*REQUIRED-ASTERISK UND DROPDOWN-EINSTELLUNGEN*/
 
 /*Required-Icon (Asterisk) Farbe wechseln*/
 .required-icon {
   color: #E1100A !important;
 }
+
+
 /*GENERELL BODY*/
 
 body {
@@ -187,6 +193,8 @@ body {
   --lumo-primary-color: #338da5 !important; /*Ändert die Hintergrundfarbe der Menübuttons links*/
 }
 
+/*BEARBEITUNGSBEREICH DOKUMENT*/
+
 /*Hintergrundfarbe Bearbeitungsbereich*/
 .column.column__grow {
   background: white;
@@ -197,11 +205,26 @@ body {
   background: white;
 }
 
-/*Balken am Ende des Dokuments weiss formatiert*/
+/*Schlussbalken am Ende des Dokuments weiss formatiert*/
 .content-box:not(.content-box__light) {
   background-color: white;
 }
 
+/*Balken am Ende der Seite weiss formatiert*/
+#fastentry-view-button-bar {
+  background-color: white
+}
+
+/*gesamter Bearbeitungsbereich ausrichten*/
+#PanelDynamic {
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+/*gesamter Bearbeitungsbereich ausrichten -> Box oben*/
+.level_0>.row {
+  margin-top: 10px;
+}
 
 /*Erster Radio-Button ausblenden*/
 vaadin-radio-group vaadin-radio-button:first-of-type {
