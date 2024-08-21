@@ -39,14 +39,14 @@
 /* Ersetzen des Images in der Menuleiste*/
 #fastentry-header {
   background-image: none;
-  background-color: #006B88; /* tint of #00718f*/
+  background-color: #00718f;
 }
 /* Ersetzen des Images in der Menuleiste*/
 #header {
 justify-content:space-between;
 height:80px;
 background-image:none;
-background-color: #006B88; /* tint of #00718f*/
+background-color: #00718f;
 background-size:cover
 }
 
