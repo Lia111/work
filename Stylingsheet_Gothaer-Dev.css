@@ -83,6 +83,7 @@ background-size:cover
   opacity: 1 !important;
   border-bottom-color: transparent  !important; /*Für Underline, aber Vorweg ausblenden*/
   justify-content: center;
+  width: 0px; /*damit Box ausgeblendet wird und Warnmeldung linksbündig*/
 }
 
 .sfc-INFO {
@@ -90,6 +91,12 @@ background-size:cover
   opacity: 1 !important;
   border-bottom-color: transparent  !important; /*Für Underline, aber Vorweg ausblenden*/
   justify-content: center;
+  width: 0px; /*damit Box ausgeblendet wird und Warnmeldung linksbündig*/
+}
+
+/*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbündig möglich*/
+.form .form--row .form--column {
+  min-width: 0px;
 }
 
 /*Für Text, der ausgegeben wird in Warnmeldung*/
