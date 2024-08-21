@@ -92,16 +92,18 @@ background-size:cover
   justify-content: center;
 }
 
-/*Fuer Text, der ausgegeben wird in Warnmeldung*/
+/*Für Text, der ausgegeben wird in Warnmeldung*/
 .sfc-WARNING.S_WARNING textarea {
   -webkit-text-fill-color: #E1100A !important;
   color: #E1100A !important;
+  font-weight: bold !important;
 }
 
-/*Fuer Text, der ausgegeben wird in Infomeldung*/
+/*Für Text, der ausgegeben wird in Infomeldung*/
 .sfc-INFO.S_INFOMELDUNG textarea {
-  -webkit-text-fill-color: rgb(120 180 196 / 50%) !important;
-  color: rgb(120 180 196 / 50%) !important;
+  -webkit-text-fill-color: #00718f !important;
+  color: #00718f !important;
+  font-weight: bold !important;
 }
 
 /* Falls Padding der Textarea angepasst werden muss
@@ -118,15 +120,8 @@ background-size:cover
 
 /*Required-Icon (Asterisk) Farbe wechseln*/
 .required-icon {
-  color: #800905 !important;
+  color: #E1100A !important;
 }
-
-/* Selektiere das erste Element aller Dropdown-Menüs mit dem Attribut 'role="listbox"' und blende es aus*/
-[role="listbox"] vaadin-combo-box-item:first-child {
-  display: none;
-}
-
-
 /*GENERELL BODY*/
 
 body {
@@ -191,4 +186,33 @@ body {
   --radiobutton-border-color: var(--lumo-shade-30pct);
   --loading-indicator-color: #9ADCFF;
   --lumo-primary-color: #00718f !important;
+}
+
+/*Hintergrundfarbe Bearbeitungsbereich*/
+.column.column__grow {
+  background: white;
+}
+
+/*Hintergrundfarbe Bearbeitungsbereich*/
+.splitpanel-second-container-work{
+  background: white;
+}
+
+/*Hintergrundfarbe Inputfelder --> füllt aber nicht ganzes Element aus*/
+input[slot="input"] {
+  background: rgb(243, 247, 252)
+}
+/*sollte den Rest des Input-Elements füllen, klappt aber nicht über Custom.css*/
+[part=input-field] {
+  background-color: rgb(243, 247, 252) !important;
+}
+
+/*Erster Radio-Button ausblenden*/
+vaadin-radio-group vaadin-radio-button:first-of-type {
+  display: none;
+}
+
+/*Memo-Feld (und restliche) vertikal zentrieren*/
+.column.form--column {
+  justify-content: center
 }
