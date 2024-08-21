@@ -131,10 +131,10 @@ body {
   --lumo-body-text-color: #00718f !important;
   --lumo-header-text-color: #00718f !important;
   --lumo-primary-text-color: rgba(255, 255, 255, 1);
-  --lumo-secondary-text-color: rgba(50, 58, 63, 1);
+  --lumo-secondary-text-color: #338da5; /*Passt Textfarbe der Überschriften an -> analog Titel*/
   --lumo-disabled-text-color: rgba(165, 169, 171, 1);
   --lumo-primary-contrast-color: #00718f !important;
-  --lumo-contrast: rgba(255, 255, 255, 1);
+  --lumo-contrast: rgb(243, 247, 252); /*Passt Hintergrundfarbe der Inputfelder an*/
   --lumo-contrast-30pct: rgba(255, 255, 255, 1);
   --lumo-contrast-20pct: rgba(255, 255, 255, 1);
   --vaadin-app-layout-navbar-offset-size: 80px;
@@ -185,7 +185,7 @@ body {
   --radiobutton-background-color: var(--lumo-contrast);
   --radiobutton-border-color: var(--lumo-shade-30pct);
   --loading-indicator-color: #9ADCFF;
-  --lumo-primary-color: #00718f !important;
+  --lumo-primary-color: #338da5 !important; /*Ändert die Hintergrundfarbe der Menübuttons links*/
 }
 
 /*Hintergrundfarbe Bearbeitungsbereich*/
@@ -196,15 +196,6 @@ body {
 /*Hintergrundfarbe Bearbeitungsbereich*/
 .splitpanel-second-container-work{
   background: white;
-}
-
-/*Hintergrundfarbe Inputfelder --> füllt aber nicht ganzes Element aus*/
-input[slot="input"] {
-  background: rgb(243, 247, 252)
-}
-/*sollte den Rest des Input-Elements füllen, klappt aber nicht über Custom.css*/
-[part=input-field] {
-  background-color: rgb(243, 247, 252) !important;
 }
 
 /*Erster Radio-Button ausblenden*/
