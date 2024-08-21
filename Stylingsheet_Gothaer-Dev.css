@@ -134,7 +134,7 @@ body {
   --lumo-secondary-text-color: #338da5; /*Passt Textfarbe der Überschriften an -> analog Titel*/
   --lumo-disabled-text-color: rgba(165, 169, 171, 1);
   --lumo-primary-contrast-color: #00718f !important;
-  --lumo-contrast: rgb(243, 247, 252); /*Passt Hintergrundfarbe der Inputfelder an*/
+  --lumo-contrast: #e9f3f5; /*Passt Hintergrundfarbe der Inputfelder an -> VGH rgb(243, 247, 252)*/
   --lumo-contrast-30pct: rgba(255, 255, 255, 1);
   --lumo-contrast-20pct: rgba(255, 255, 255, 1);
   --vaadin-app-layout-navbar-offset-size: 80px;
@@ -230,4 +230,9 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
 /*Margin am Menüband links anpassen, damit kein Rand dazwischen bleibt*/
 #TreeDocFastEntryApplication {
   margin-left: 0px;
+}
+
+/*Top von Menüband links weiss formatiert*/
+#fastentry-treegrid-container-buttoncontainer {
+  background-color: white;
 }
