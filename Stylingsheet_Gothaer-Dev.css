@@ -104,6 +104,7 @@ background-size:cover
   -webkit-text-fill-color: #E1100A !important;
   color: #E1100A !important;
   font-weight: bold !important;
+  padding-left: 0px; /*damit linksbündig*/
 }
 
 /*Für Text, der ausgegeben wird in Infomeldung*/
@@ -111,17 +112,8 @@ background-size:cover
   -webkit-text-fill-color: #00718f !important;
   color: #00718f !important;
   font-weight: bold !important;
+  padding-left: 0px; /*damit linksbündig*/
 }
-
-/* Falls Padding der Textarea angepasst werden muss
-.sfc-WARNING textarea {
-  padding-top: 1em;
-}
-.sfc-INFO textarea {
-  padding-top: 1em;
-}
-*/
-
 
 /*REQUIRED-ICON UND DROPDOWN-EINSTELLUNGEN*/
 
