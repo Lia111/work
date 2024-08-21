@@ -84,7 +84,7 @@ background-size:cover
   opacity: 1 !important;
   border-bottom-color: transparent  !important; /*Für Underline, aber Vorweg ausblenden*/
   justify-content: center;
-  width: 0px; /*damit Box ausgeblendet wird und Warnmeldung linksbündig*/
+  width: 0px; /*damit Box ausgeblendet wird und Warnmeldetext linksbündig*/
 }
 
 .sfc-INFO {
@@ -92,7 +92,7 @@ background-size:cover
   opacity: 1 !important;
   border-bottom-color: transparent  !important; /*Für Underline, aber Vorweg ausblenden*/
   justify-content: center;
-  width: 0px; /*damit Box ausgeblendet wird und Infomeldung linksbündig*/
+  width: 0px; /*damit Box ausgeblendet wird und Infotext linksbündig*/
 }
 
 /*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbündig möglich*/
@@ -119,11 +119,103 @@ background-size:cover
 }
 
 
-/*REQUIRED-ASTERISK UND DROPDOWN-EINSTELLUNGEN*/
+/*DIVERSES*/
 
 /*Required-Icon (Asterisk) Farbe wechseln*/
 .required-icon {
   color: #E1100A !important;
+}
+
+/*Erster Radio-Button ausblenden*/
+vaadin-radio-group vaadin-radio-button:first-of-type {
+  display: none;
+}
+
+/*Inputfelder vertikal zentrieren*/
+.column.form--column {
+  justify-content: center
+}
+
+
+/*BEARBEITUNGSBEREICH DOKUMENT*/
+
+/*Hintergrundfarbe Bearbeitungsbereich*/
+.column.column__grow {
+  background: white;
+}
+
+/*Hintergrundfarbe Bearbeitungsbereich*/
+.splitpanel-second-container-work{
+  background: white;
+}
+
+/*Schlussbalken am Ende des Dokuments weiss formatiert*/
+.content-box:not(.content-box__light) {
+  background-color: white;
+}
+
+/*Balken am Ende der Seite weiss formatiert*/
+#fastentry-view-button-bar {
+  background-color: #f2fafb;
+}
+
+/*gesamter Bearbeitungsbereich ausrichten*/
+#PanelDynamic {
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+/*gesamter Bearbeitungsbereich ausrichten -> Box oben*/
+.level_0>.row {
+  margin-top: 10px;
+}
+
+
+/*Schriftgrösse von Dokumenttitel*/
+.title.title__medium {
+  font-size: 20px;
+}
+
+/*Anpassungen an linke Menüleiste: Rahmen unten und Anpassung Padding + Margin*/
+.fastentry-treegrid vaadin-grid-cell-content{
+  border-bottom: 1px solid #e7e8e9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/*Margin linke Menüleiste anpassen, damit kein Rand dazwischen bleibt*/
+#TreeDocFastEntryApplication {
+  margin-left: 0px;
+}
+
+/*Top linke Menüleiste weiss formatiert*/
+#fastentry-treegrid-container-buttoncontainer {
+  background-color: white;
+}
+
+/*Rahmenline oben von Inputfelder entfernen*/
+.form .form--row.first_form_row .form--column {
+  border-top: 0px;
+}
+
+/*Padding der Überschriften anpassen*/
+.form .container_level_2 .title.title__small {
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+/*ANLAGEN SIDE-MENU*/
+
+/*Hintergrundfarbe*/
+#collabViewLayout {
+  background: #ffffff;
+}
+
+/*Schriftfarbe anpassen*/
+.title-no-padding {
+  color: #338da5;
 }
 
 
@@ -191,95 +283,4 @@ body {
   --radiobutton-border-color: var(--lumo-shade-30pct);
   --loading-indicator-color: #9ADCFF;
   --lumo-primary-color: #338da5 !important; /*Ändert die Hintergrundfarbe der Menübuttons links*/
-}
-
-/*BEARBEITUNGSBEREICH DOKUMENT*/
-
-/*Hintergrundfarbe Bearbeitungsbereich*/
-.column.column__grow {
-  background: white;
-}
-
-/*Hintergrundfarbe Bearbeitungsbereich*/
-.splitpanel-second-container-work{
-  background: white;
-}
-
-/*Schlussbalken am Ende des Dokuments weiss formatiert*/
-.content-box:not(.content-box__light) {
-  background-color: white;
-}
-
-/*Balken am Ende der Seite weiss formatiert*/
-#fastentry-view-button-bar {
-  background-color: #f2fafb;
-}
-
-/*gesamter Bearbeitungsbereich ausrichten*/
-#PanelDynamic {
-  padding-left: 0px;
-  padding-top: 0px;
-}
-
-/*gesamter Bearbeitungsbereich ausrichten -> Box oben*/
-.level_0>.row {
-  margin-top: 10px;
-}
-
-/*Erster Radio-Button ausblenden*/
-vaadin-radio-group vaadin-radio-button:first-of-type {
-  display: none;
-}
-
-/*Inputfelder vertikal zentrieren*/
-.column.form--column {
-  justify-content: center
-}
-
-
-/*Schriftgrösse von Dokumenttitel erhöhen*/
-.title.title__medium {
-  font-size: 20px;
-}
-
-/*Anpassungen an linke Menüleiste: Border unten und Vergrösserung des Padding um Überlappungen zu vermeiden -> funktioniert aber im custom.css nicht -> genauerer Selektor mit Dennis suchen*/
-:host(.fastentry-treegrid) [part~=cell] ::slotted(vaadin-grid-cell-content) {
-  border-left: none !important;
-  border-right: none !important;
-  border-bottom: 1px solid #e7e8e9;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-/*Margin am Menüband links anpassen, damit kein Rand dazwischen bleibt*/
-#TreeDocFastEntryApplication {
-  margin-left: 0px;
-}
-
-/*Top von Menüband links weiss formatiert*/
-#fastentry-treegrid-container-buttoncontainer {
-  background-color: white;
-}
-
-/*Rahmenline oben der Inputfelder entfernen*/
-.form .form--row.first_form_row .form--column {
-  border-top: 0px;
-}
-
-/*Padding der Überschriften anpassen*/
-.form .container_level_2 .title.title__small {
-  margin-top: 16px;
-  margin-bottom: 12px;
-}
-
-/*ANLAGEN SIDE-MENU*/
-
-/*Hintergrundfarbe*/
-#collabViewLayout {
-  background: #ffffff;
-}
-
-/*Schriftfarbe anpassen*/
-.title-no-padding {
-  color: #338da5;
 }
