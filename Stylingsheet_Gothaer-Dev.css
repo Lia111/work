@@ -207,3 +207,27 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
 .column.form--column {
   justify-content: center
 }
+
+/*Balken am Ende des Dokuments weiss formatiert*/
+.content-box:not(.content-box__light) {
+  background-color: white;
+}
+
+/*Schriftgrösse von Dokumenttitel erhöhen*/
+.title.title__medium {
+  font-size: 20px;
+}
+
+/*Anpassungen am Menüband links: Border unten und Vergrösserung des Padding um Überlappungen zu vermeiden -> funktioniert aber im custom.css nicht -> genauerer Selektor mit Dennis suchen*/
+:host(.fastentry-treegrid) [part~=cell] ::slotted(vaadin-grid-cell-content) {
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid #e7e8e9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*Margin am Menüband links anpassen, damit kein Rand dazwischen bleibt*/
+#TreeDocFastEntryApplication {
+  margin-left: 0px;
+}
