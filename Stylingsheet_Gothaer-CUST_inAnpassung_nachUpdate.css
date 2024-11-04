@@ -247,6 +247,19 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
 }
 
 
+/*KONTEXTMENÜ FÜR DRUCKVORSCHAU*/
+
+/*Hintergrundfarbe Druckvorschau Auswahlbereich*/
+.dialog-content-box .form.form__no-margin-bottom.namedcopyplugin-content {
+  background-color: #f5f5f5 !important;
+}
+
+/*Hintergrundfarbe Druckvorschau Auswahlbereich innen*/
+.dialog-content-box .column.form--column.column__grow {
+  background-color: #f5f5f5 !important;
+}
+
+
 /*ANLAGEN SIDE-MENU*/
 
 /*Hintergrundfarbe*/
