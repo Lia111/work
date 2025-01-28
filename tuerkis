@@ -1,0 +1,92 @@
+.title.title__big {
+  color: #2167ae !important;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  line-height: 1;
+}
+
+
+.title.title__medium {
+  color: #2167ae;
+  font-size: 15px !important;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  line-height: 1;
+  display: flex;
+}
+
+
+.uwp-login {
+  background: #2167ae;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+body {
+  --lumo-font-family: "Open Sans", sans-serif;
+  --lumo-primary-color-10pct: #2167ae !important;
+  --lumo-primary-color-20pct: #2167ae !important;
+  --lumo-body-text-color: #2167ae !important;
+  --lumo-header-text-color: #2167ae !important;
+  --lumo-primary-text-color: rgba(255, 255, 255, 1);
+  --lumo-secondary-text-color: rgba(50, 58, 63, 1);
+  --lumo-disabled-text-color: rgba(165, 169, 171, 1);
+  --lumo-primary-contrast-color: #2167ae !important;
+  --lumo-contrast: rgba(255, 255, 255, 1);
+  --lumo-contrast-30pct: rgba(255, 255, 255, 1);
+  --lumo-contrast-20pct: rgba(255, 255, 255, 1);
+  --vaadin-app-layout-navbar-offset-size: 80px;
+  --lumo-button-size: 32px;
+  --lumo-text-field-size: 32px;
+  --lumo-shade: rgba(50, 58, 63, 1);
+  --lumo-shade-5pct: rgba(245, 245, 245, 1);
+  --lumo-shade-10pct: rgba(231, 232, 233, 1);
+  --lumo-shade-20pct: rgba(207, 210, 211, 1);
+  --lumo-shade-30pct: rgba(165, 169, 171, 1);
+  --lumo-shade-40pct: rgba(126, 132, 135, 1);
+  --lumo-shade-50pct: rgba(87, 94, 98, 1);
+  --lumo-shade-60pct: rgba(50, 58, 63, 1);
+  --lumo-shade-70pct: rgba(50, 58, 63, 1);
+  --lumo-shade-80pct: rgba(50, 58, 63, 1);
+  --lumo-shade-90pct: rgba(50, 58, 63, 1);
+  --lumo-shade-hover: rgba(186, 186, 186, .1);
+  --lumo-font-size-xs: 10px;
+  --lumo-font-size-s: 12px;
+  --lumo-font-size-m: 13px;
+  --lumo-line-height-xs: 15px;
+  --lumo-line-height-s: 16px;
+  --lumo-line-height-m: 20px;
+  --lumo-font-weight-s: 400;
+  --lumo-font-weight-l: 700;
+  --lumo-success-color: rgba(210, 239, 230, 1);
+  --lumo-success-contrast-color: rgba(29, 176, 131, 1);
+  --lumo-error-color: rgba(247, 215, 220, 1);
+  --lumo-error-contrast-color: rgba(215, 57, 81, 1);
+  --lumo-warning-color: rgba(255, 231, 204, 1);
+  --lumo-warning-contrast-color: rgba(255, 133, 0, 1);
+  --iron-icon-width: 16px;
+  --iron-icon-height: 16px;
+  --menu-bar-width: 159px;
+  --lumo-size-m: 32px;
+  --lumo-space-xs: 6px;
+  --menu-bar-height: var(--vaadin-app-layout-navbar-offset-size);
+  --lumo-icon-size-m: 16px;
+  --vaadin-combo-box-overlay-max-height: 176px;
+  --lumo-space-m: 16px;
+  --toggle-button-width: 36px;
+  --clear-button-width: 36px;
+  --vaadin-infinite-scroller-buffer-width: 276px;
+  --required-icon-color: var(--lumo-primary-color);
+  --fastentry-treegrid-checkbox-border-color: var(--lumo-shade-30pct);
+  --fastentry-treegrid-checkbox-background-color: var(--lumo-contrast);
+  --fastentry-treegrid-checkbox-color: var(--lumo-primary-color);
+  --radiobutton-background-color: var(--lumo-contrast);
+  --radiobutton-border-color: var(--lumo-shade-30pct);
+  --loading-indicator-color: #9ADCFF;
+  --lumo-primary-color: #2167ae !important;
+}
