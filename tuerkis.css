@@ -85,6 +85,14 @@ body {
     font-family: var(--lumo-font-family);
 }
 
+/*GEVO HINTERGRUND*/
+.splitpanel-second-container-work {
+    background: #f4f3f3; /*helles Grau*/
+}
+
+.column.column__grow {
+    background: #f4f3f3; /*helles Grau*/
+}
 
 /*LOGINSEITE*/
 
