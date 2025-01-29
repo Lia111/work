@@ -11,7 +11,7 @@ body {
     --lumo-font-family: "Open Sans", sans-serif;
     --lumo-primary-color: #ffffff; /*weiss*/
     --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
-    --lumo-primary-color-20pct: rgba(40, 96, 125, 1); 
+    --lumo-primary-color-20pct: rgba(207, 210, 211, 1);  /*irgend ein grau*/
     --lumo-body-text-color: rgba(50, 120, 157, 1);
     --lumo-header-text-color: rgba(50, 120, 157, 1);
     --lumo-primary-text-color: rgba(255, 255, 255, 1);
