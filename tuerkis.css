@@ -117,7 +117,7 @@ body {
 /* Startseite: Ersetzen des Images in der Menuleiste*/
 #header {
   background-image: none !important; /*Consor-Muster entfernen*/
-  background-color: #ffffff
+  background-color: #ffffff !important;
   color: #46A9b4;
   }
 
@@ -346,19 +346,10 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
 
 /*NEUER GEVO MENÜ*/
 
-/*Hintergund bei "Neuer GeVo" weiss formatieren*/
-#MainContractDataView {
-  background-color: white !important;
-}
-
-/*Titel linksbündig machen*/
+/*Titel linksbündig machen --> Sollte in Standard*/
 #LabelTitleMainContractDataView {
   padding-left: 0px !important;
 }
 
-/*Margin anpassen zwischen Titel und Label bei "Neuer GeVo"*/
-#contactDescrInputRow {
-  margin-top: 20px !important;
-}
 
 
