@@ -87,11 +87,11 @@ body {
 
 /*GEVO HINTERGRUND*/
 .splitpanel-second-container-work {
-    background: #f4f3f3; /*helles Grau*/
+    background: #f4f3f3 !important; /*helles Grau*/
 }
 
 .column.column__grow {
-    background: #f4f3f3; /*helles Grau*/
+    background: #f4f3f3 !important; /*helles Grau*/
 }
 
 /*LOGINSEITE*/
