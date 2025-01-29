@@ -9,7 +9,7 @@
 
 body {
     --lumo-font-family: "Open Sans", sans-serif;
-    --lumo-primary-color: #46A9b4; /*helles türkis*/
+    --lumo-primary-color: #00818f; /*dunkleres türkis von webseite*/
     --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
     --lumo-primary-color-20pct: rgba(231, 232, 233, 1);  /*hellstes Consor grau*/
     --lumo-body-text-color: rgba(50, 120, 157, 1);
@@ -74,7 +74,7 @@ body {
     --tooltip-text-color: var(--lumo-secondary-text-color);
     --tooltip-font-size: var(--lumo-font-size-s);
     --tooltip-background-color: var(--lumo-shade-20pct);
-    --menu-bar-item-color: #474747; /*fast schwarz*/
+    --menu-bar-item-color: #00818f; /*dunkleres türkis von webseite*/
     --notification-color: #FF8500;
     --search-highlight: orange;
     --field-background-color: var(--lumo-contrast);
