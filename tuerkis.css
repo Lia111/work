@@ -153,7 +153,6 @@ body {
 .sfc-WARNING {
   -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "WARNUNG"*/
   width: 0px; /*damit Box ausgeblendet wird und Warnmeldetext linksbündig*/
-  background-color: white !important; /*Hintergrundfarbe der Warnmeldung*/
 }
 
 .column.form--column.sfc-WARNING {
@@ -172,7 +171,6 @@ body {
 .sfc-INFO {
   -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "INFO"*/
   width: 0px; /*damit Box ausgeblendet wird und Infotext linksbündig*/
-  background-color: white !important; /*Hintergrundfarbe der Infomeldung*/
 }
 
 .form--column.sfc-INFO {
