@@ -17,7 +17,7 @@ body {
     --lumo-primary-text-color: rgba(255, 255, 255, 1);
     --lumo-secondary-text-color: rgba(50, 58, 63, 1);
     --lumo-disabled-text-color: rgba(165, 169, 171, 1);
-    --lumo-primary-contrast-color: rgba(50, 120, 157, 1);
+    --lumo-primary-contrast-color: #006D73; /*dunkleres hover türkis, z.B. für Haken in Checkbox*/
     --lumo-contrast: #ffffff;
     --lumo-contrast-30pct: rgba(255, 255, 255, 1);
     --lumo-contrast-20pct: rgba(255, 255, 255, 1);
