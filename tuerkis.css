@@ -34,13 +34,13 @@
 /* Startseite: Ersetzen des Images in der Menuleiste*/
 #header {
   background-image: none !important; /*Consor-Muster entfernen*/
-  background-color: #00718f;
+  background-color: #ffffff;
   }
 
 /* In einem GeVo: Ersetzen des Images in der Menuleiste*/
 #fastentry-header {
   background-image: none !important; /*Consor-Muster entfernen*/
-  background-color: #00718f;
+  background-color: #ffffff;
 }
 
 
