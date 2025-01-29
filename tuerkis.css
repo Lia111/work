@@ -74,7 +74,7 @@ body {
     --tooltip-text-color: var(--lumo-secondary-text-color);
     --tooltip-font-size: var(--lumo-font-size-s);
     --tooltip-background-color: var(--lumo-shade-20pct);
-    --menu-bar-item-color: #46A9b4;
+    --menu-bar-item-color: #474747; /*fast schwarz*/
     --notification-color: #FF8500;
     --search-highlight: orange;
     --field-background-color: var(--lumo-contrast);
