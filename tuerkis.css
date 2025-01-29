@@ -237,22 +237,7 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
   -webkit-text-fill-color: rgba(165, 169, 171, 1);
 }
 
-/*BEARBEITUNGSBEREICH DOKUMENT*/
-
-/*Hintergrundfarbe Bearbeitungsbereich 1*/
-.column.column__grow {
-  background: white;
-}
-
-/*Hintergrundfarbe Bearbeitungsbereich 2*/
-.splitpanel-second-container-work{
-  background: white;
-}
-
-/*Hintergrundfarbe Bearbeitungsbereich 3*/
-.content-box:not(.content-box__light) {
-  background-color: white !important;
-}
+/*BEARBEITUNGSBEREICH GEVO*/
 
 /*Gepunkteter Rahmen am Ende eines Abschnitts entfernen*/
 .row.top_container {
