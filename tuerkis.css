@@ -1,20 +1,17 @@
 /*SCHRIFTART*/
 
-/* Bis auf weiteres wird Default verwendet
+
 @font-face {
-    font-family: 'FiraSans-Regular';
-    src: url("../../../../../universal/VAADIN/themes/custom/fonts/FiraSans-Regular.ttf") format('truetype');
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Helvetia';
+    src: url('fonts/futura-std-book.woff') format('woff')
 }
-*/
 
 
 /*LOGINSEITE*/
 
 /*Loginseite Hintergrundfarbe*/
 .uwp-login {
-  background: #00718f !important;
+  background: #f4f3f3 !important;
 }
 
 /*Loginseite Hintergrund Logo*/
@@ -46,14 +43,14 @@
 
 
 /*BUTTONS*/
-/*
+
 .button.button__primary {
-  background-color: #338da5 !important; /*Hintergrundfarbe*/
-  color: white !important; /*Textfarbe in Button*/
+  background-color: #46A9B4 !important; /*Hintergrundfarbe*/
+  color: #ffffff !important; /*Textfarbe in Button*/
 }
 
 .button.button__primary:hover {
-  background-color: #00718f !important;
+  background-color: #006D73 !important;
 }
 
 .button.button__primary:active {
@@ -63,7 +60,7 @@
 .button.button__primary:disabled {
     background-color: #e0e0e0 !important;
 }
-*/
+
 
 /*INFO UND WARNMELDUNGEN*/
 
@@ -298,11 +295,11 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
 
 body {
     --lumo-font-family: "Open Sans", sans-serif;
-    --lumo-primary-color: #141412; /*schwarz*/
-    --lumo-primary-color-10pct: #141412; /*schwarz*/
-    --lumo-primary-color-20pct: #141412; /*schwarz*/
-    --lumo-body-text-color: #141412; /*schwarz*/
-    --lumo-header-text-color: #141412; /*schwarz*/
+    --lumo-primary-color: #ffffff; /*schwarz*/
+    --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
+    --lumo-primary-color-20pct: rgba(40, 96, 125, 1); 
+    --lumo-body-text-color: rgba(50, 120, 157, 1);
+    --lumo-header-text-color: rgba(50, 120, 157, 1);
     --lumo-primary-text-color: rgba(255, 255, 255, 1);
     --lumo-secondary-text-color: rgba(50, 58, 63, 1);
     --lumo-disabled-text-color: rgba(165, 169, 171, 1);
