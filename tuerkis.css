@@ -10,14 +10,11 @@
 body {
     /*--lumo-font-family: "Helvetia", sans serif;*/
     --lumo-primary-color: #00818f; /*dunkleres türkis von webseite*/
-    --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
+    --lumo-primary-color-10pct: #cce6e9;
     --lumo-primary-color-20pct: rgba(231, 232, 233, 1);  /*hellstes Consor grau*/
-    --lumo-body-text-color: #46A9b4; /*helles türkis, z.B. für Haken in Checkbox*/
+    --lumo-body-text-color: #00818f; /*dunkleres türkis*/
     --lumo-header-text-color: #00818f;
-    --lumo-primary-text-color: rgba(255, 255, 255, 1);
-    --lumo-secondary-text-color: #46A9b4; /*helles türkis*/
-    --lumo-disabled-text-color: rgba(165, 169, 171, 1);
-    --lumo-primary-contrast-color: #46A9b4; /*helles türkis*/
+    --lumo-primary-contrast-color: #00818f; /*dunkleres türkis z.B. für Haken in Checkbox*/
     --lumo-contrast: #ffffff;
     --lumo-contrast-30pct: rgba(255, 255, 255, 1);
     --lumo-contrast-20pct: rgba(255, 255, 255, 1);
@@ -262,42 +259,23 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
   margin-top: 15px !important;
 }
 
-/*Ausrichtung von Dokumenttitel 1*/
+/*Farbe von Dokumenttitel 1*/
 .title.title__big {
-  padding-left: 24px;
+  color: #141412;
 }
 
-/*Schriftgrösse von Dokumenttitel 2*/
+/*Farbe von Dokumenttitel 2*/
 .title.title__medium {
-  font-size: 20px !important;
+  color: #141412;
 }
 
-/*Anpassungen an linke Menüleiste: Menüeinträge*/
-.fastentry-treegrid vaadin-grid-cell-content{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
 /*Top linke Menüleiste weiss formatiert*/
 #fastentry-treegrid-container-buttoncontainer {
   background-color: white;
 }
+vaadin-checkbox.title.title__small label
 
-/*Anpassungen an linke Menüleiste: Margin entfernen und so gesamte Breite des Menüeintrages mit Farbe füllen*/
-#TreeDocFastEntryApplication {
-  margin-left: 0px;
-}
-
-/*Rahmenline oben von Inputfelder entfernen*/
-.form .form--row.first_form_row .form--column {
-  border-top: 0px !important;
-}
-
-/*Padding der Radio-Buttons anpassen*/
-.select-optiongroup.select-optiongroup-horizontal {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
 
 /*Textfarbe von Bausteinselektion, wenn UWR erlaubt*/
 .hide-parent .container_with_checkbox label{
