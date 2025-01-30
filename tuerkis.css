@@ -8,7 +8,7 @@
 /*GENERELL BODY*/
 
 body {
-    /*--lumo-font-family: "Helvetia", sans serif;*/
+    --lumo-font-family: "Helvetia";
     --lumo-primary-color: #00818f; /*dunkleres türkis von webseite*/
     --lumo-primary-color-10pct: #cce6e9;
     --lumo-primary-color-20pct: rgba(231, 232, 233, 1);  /*hellstes Consor grau*/
