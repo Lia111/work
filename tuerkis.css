@@ -136,7 +136,7 @@ body {
 }
 
 .button.button__primary:active {
-    background-color: #00516f !important;
+    background-color: red !important;
 }
 
 .button.button__primary:disabled {
