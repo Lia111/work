@@ -287,5 +287,11 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
   padding-left: 0px !important;
 }
 
+/*einzuordnen*/
 
-
+label {
+    font-size: 13.5px;
+}
+.form .form--row .form--column .form--label, .form .form--row .form--column .form--message {
+    font-size: 13.5px;
+}
