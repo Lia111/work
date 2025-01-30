@@ -13,7 +13,7 @@ body {
     --lumo-primary-color-10pct: rgba(40, 96, 125, 1);
     --lumo-primary-color-20pct: rgba(231, 232, 233, 1);  /*hellstes Consor grau*/
     --lumo-body-text-color: #46A9b4; /*helles türkis, z.B. für Haken in Checkbox*/
-    --lumo-header-text-color: #46A9b4; /*helles türkis, z.B. für Haken in Checkbox*/
+    --lumo-header-text-color: #141412; /*helles türkis, z.B. für Haken in Checkbox*/
     --lumo-primary-text-color: rgba(255, 255, 255, 1);
     --lumo-secondary-text-color: #46A9b4; /*helles türkis, z.B. für Haken in Checkbox*/
     --lumo-disabled-text-color: rgba(165, 169, 171, 1);
