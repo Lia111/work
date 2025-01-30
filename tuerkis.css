@@ -33,9 +33,9 @@ body {
     --lumo-shade-80pct: rgba(50, 58, 63, 1);
     --lumo-shade-90pct: rgba(50, 58, 63, 1);
     --lumo-shade-hover: rgba(186, 186, 186, 0.1);
-    --lumo-font-size-xs: 10px;
-    --lumo-font-size-s: 12px;
-    --lumo-font-size-m: 13px;
+    --lumo-font-size-xs: 12px;
+    --lumo-font-size-s: 13.5px;
+    --lumo-font-size-m: 15px;
     --lumo-line-height-xs: 15px;
     --lumo-line-height-s: 16px;
     --lumo-line-height-m: 20px;
