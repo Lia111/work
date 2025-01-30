@@ -128,6 +128,10 @@ body {
   background-color: #ffffff;
 }
 
+#companyLogo {
+    height: 80px;
+    mix-blend-mode: normal;
+}
 
 /*BUTTONS*/
 
