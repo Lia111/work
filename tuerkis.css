@@ -175,15 +175,6 @@ body {
   border-bottom-color: transparent  !important; /*Farbe Underline der Infomeldung anpassen*/
 }
 
-/*Für Text, der ausgegeben wird in Infomeldung*/
-.sfc-INFO.S_INFOMELDUNG textarea {
-  -webkit-text-fill-color: #778e00 !important;
-  font-weight: bold !important;
-  padding-left: 0px;
-  padding-top: 15px;
-}
-
-
 /*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbündig möglich*/
 .form .form--row .form--column {
   min-width: 0px !important;
