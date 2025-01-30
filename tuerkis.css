@@ -130,7 +130,7 @@ body {
 
 #companyLogo {
     height: 80px;
-    mix-blend-mode: normal;
+    mix-blend-mode: normal; /*Im Standard ändern?*/
 }
 
 /*BUTTONS*/
