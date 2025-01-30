@@ -136,7 +136,7 @@ body {
 }
 
 .button.button__primary:active {
-    background-color: #004C51 !important; /*shade of #006D73*/
+ /*   background-color: #004C51 !important; *//*shade of #006D73*/
 }
 
 .button.button__primary:disabled {
