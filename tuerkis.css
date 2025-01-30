@@ -95,19 +95,14 @@ body {
 
 /*Loginseite Hintergrundfarbe*/
 .uwp-login {
-  background: #f4f3f3 !important;
+  background: #005A64 !important;
 }
 
 /*Loginseite Hintergrund Logo*/
 .uwp-login-logo-container {
     background-image: none !important; /*Consor-Muster entfernen*/
-    background-color: #00718f;
 }
 
-/*Loginseite Login-Button*/
-.button.button__primary.login-button.login-form-field {
-  background-color: #00718f;
-}
 
 
 /*HEADER*/
@@ -249,15 +244,7 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
   background-color: #f2fafb;
 }
 
-/*gesamter Bearbeitungsbereich ausrichten*/
-#PanelDynamic {
-  padding-left: 0px;
-}
 
-/*gesamter Bearbeitungsbereich ausrichten -> Box oben*/
-.level_0>.row {
-  margin-top: 15px !important;
-}
 
 /*Farbe von Dokumenttitel 1*/
 .title.title__big {
@@ -273,30 +260,6 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
 /*Top linke Menüleiste weiss formatiert*/
 #fastentry-treegrid-container-buttoncontainer {
   background-color: white;
-}
-vaadin-checkbox.title.title__small label
-
-
-/*Textfarbe von Bausteinselektion, wenn UWR erlaubt*/
-.hide-parent .container_with_checkbox label{
-  color: rgba(50, 58, 63, 1);
-}
-
-/*Margin von auswählbaren Bausteinen in Tabellen*/
-.form.table_container.border_false {
-  margin-bottom: 0px;
-  margin-top: 0px
-}
-
-/*Textfarbe von auswählbaren Bausteinen in Tabellen*/
-.form.table_container.border_false label {
-  color: rgba(50, 58, 63, 1)
-}
-
-/*Standardfeldlabel in Tabellenformat zentrieren*/
-.column.table_column_start {
-  padding-bottom: 5px;
-  padding-top: 2px;
 }
 
 
