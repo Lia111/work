@@ -1,9 +1,11 @@
 /*SCHRIFTART*/
 
 @font-face {
-    font-family: 'Helvetia';
-    src: url('fonts/futura-std-book.woff') format('woff')
-}
+  font-family: 'Realist';
+  src: url("../../../../../universal/VAADIN/themes/custom/fonts/futura-std-book.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+ }
 
 /*GENERELL BODY*/
 
