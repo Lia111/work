@@ -291,3 +291,11 @@ label {
 .form .form--row .form--column .form--label, .form .form--row .form--column .form--message {
     font-size: 13.5px;
 }
+
+vaadin-checkbox label {
+    font-size: 13.5px;
+}
+
+.form .level_2 .title {
+    font-size: 13.5px;
+}
