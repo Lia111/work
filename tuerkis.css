@@ -109,17 +109,17 @@ body {
   border-bottom-color: transparent  !important; /*Farbe Underline der Infomeldung anpassen*/
 }
 
-/*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbÃ¼ndig möglich --> Standard oder Konfig?*/
+/*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbündig möglich --> Standard oder Konfig?*/
 .form .form--row .form--column {
   min-width: 0px !important;
 }
 
-/*Anpassung Spaltenbreite Warnmeldung, damit gesamte LÃ¤nge genutzt wird bis zum Umbruch --> Standard oder Konfig?*/
+/*Anpassung Spaltenbreite Warnmeldung, damit gesamte Länge genutzt wird bis zum Umbruch --> Standard oder Konfig?*/
 .column.form--column.column__grow.column__text_area.sfc-WARNING {
   min-width: 850px !important;
 }
 
-/*Anpassung Spaltenbreite Infomeldung, damit gesamte LÃ¤nge genutzt wird bis zum Umbruch --> Standard oder Konfig?*/
+/*Anpassung Spaltenbreite Infomeldung, damit gesamte Länge genutzt wird bis zum Umbruch --> Standard oder Konfig?*/
 .column.form--column.column__grow.column__text_area.sfc-INFO {
   min-width: 850px !important;
 }
