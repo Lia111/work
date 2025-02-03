@@ -145,7 +145,7 @@ body {
 .sfc-WARNING {
   -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "WARNUNG"*/
   width: 0px; /*damit Box ausgeblendet wird und Warnmeldetext linksbündig*/
-  color: red;
+  color: var(--lumo-error-text-color);
 }
 
 .column.form--column.sfc-WARNING {
@@ -164,7 +164,7 @@ body {
 .sfc-INFO {
   -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "INFO"*/
   width: 0px; /*damit Box ausgeblendet wird und Infotext linksbündig*/
-  color: blue;
+  color: #0e46a1;
 }
 
 .form--column.sfc-INFO {
@@ -298,4 +298,8 @@ vaadin-checkbox label {
 
 .form .level_2 .title {
     font-size: 13.5px;
+}
+
+vaadin-checkbox.title.title__medium label {
+    color: #141412;
 }
