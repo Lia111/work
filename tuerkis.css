@@ -186,39 +186,6 @@ body {
   min-width: 850px !important;
 }
 
-
-/*DIVERSES*/
-
-/*Required-Icon (Asterisk) Farbe wechseln*/
-.required-icon {
-  color: #E1100A !important;
-}
-
-/*Required-Icon (Asterisk) in Tabellen: Farbe wechseln*/
-.primary-color-icon.required  {
-  color: #E1100A !important;
-}
-
-/*Erster Radio-Button ausblenden*/
-vaadin-radio-group vaadin-radio-button:first-of-type {
-  display: none;
-}
-
-/*Inputfelder vertikal zentrieren*/
-.column.form--column {
-  justify-content: center
-}
-
-/*Schriftfarbe der gespertten Inputfelder anpassen (input)*/
-.hide-parent input[disabled] {
-  -webkit-text-fill-color: rgba(165, 169, 171, 1);
-}
-
-/*Schriftfarbe der gespertten Inputfelder anpassen (label)*/
-.hide-parent label[disabled] {
-  -webkit-text-fill-color: rgba(165, 169, 171, 1);
-}
-
 /*BEARBEITUNGSBEREICH GEVO*/
 
 /*Gepunkteter Rahmen am Ende eines Abschnitts entfernen*/
