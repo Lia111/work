@@ -110,7 +110,6 @@ body {
 #header {
   background-image: none !important; /*Consor-Muster entfernen*/
   background-color: #ffffff !important;
-  color: #46A9b4;
   }
 
 /* In einem GeVo: Ersetzen des Images in der Menuleiste*/
@@ -141,46 +140,55 @@ body {
 
 /*INFO UND WARNMELDUNGEN*/
 
+/*Standardfeldbezeichnung ausblenden*/
 .sfc-WARNING {
   -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "WARNUNG"*/
-  width: 0px; /*damit Box ausgeblendet wird und Warnmeldetext linksbündig*/
-  color: var(--lumo-error-text-color);
+  width: 0px; /*damit Box ausgeblendet wird und Warnmeldetext linksbÃ¼ndig*/
 }
 
+/*Strich unter Warnung entfernen*/
 .column.form--column.sfc-WARNING {
   border-bottom-color: transparent  !important; /*Farbe Underline der Warnmeldung anpassen*/
 }
 
-/*Für Text, der ausgegeben wird in Warnmeldung*/
+/*Für Warnungstext */
 .sfc-WARNING.S_WARNING textarea {
-  -webkit-text-fill-color: #E1100A !important;
+  -webkit-text-fill-color: #E1100A;
   font-weight: bold !important;
   padding-left: 0px;
   padding-top: 15px;
 }
 
-
-.sfc-INFO {
-  -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "INFO"*/
-  width: 0px; /*damit Box ausgeblendet wird und Infotext linksbündig*/
-  color: #0e46a1;
+/*Für Infotext*/
+.sfc-INFO.S_INFOMELDUNG textarea {
+  -webkit-text-fill-color: #0e46a1 !important;
+  font-weight: bold !important;
+  padding-left: 0px;
+  padding-top: 15px;
 }
 
+/*Standardfeldbezeichnung ausblenden*/
+.sfc-INFO {
+  -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "INFO"*/
+  width: 0px; /*damit Box ausgeblendet wird und Infotext linksbÃ¼ndig*/
+}
+
+/*Strich unter Info entfernen*/
 .form--column.sfc-INFO {
   border-bottom-color: transparent  !important; /*Farbe Underline der Infomeldung anpassen*/
 }
 
-/*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbündig möglich*/
+/*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbÃ¼ndig mÃ¶glich*/
 .form .form--row .form--column {
   min-width: 0px !important;
 }
 
-/*Anpassung Spaltenbreite Warnmeldung, damit gesamte Länge genutzt wird bis zum Umbruch*/
+/*Anpassung Spaltenbreite Warnmeldung, damit gesamte LÃ¤nge genutzt wird bis zum Umbruch*/
 .column.form--column.column__grow.column__text_area.sfc-WARNING {
   min-width: 850px !important;
 }
 
-/*Anpassung Spaltenbreite Infomeldung, damit gesamte Länge genutzt wird bis zum Umbruch*/
+/*Anpassung Spaltenbreite Infomeldung, damit gesamte LÃ¤nge genutzt wird bis zum Umbruch*/
 .column.form--column.column__grow.column__text_area.sfc-INFO {
   min-width: 850px !important;
 }
