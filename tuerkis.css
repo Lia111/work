@@ -104,7 +104,6 @@ body {
 }
 
 
-
 /*HEADER*/
 
 /* Startseite: Ersetzen des Images in der Menuleiste*/
@@ -193,19 +192,32 @@ body {
   border-bottom: none;
 }
 
-/*Balkenfarbe am Ende der Seite*/
-#fastentry-view-button-bar {
-  background-color: #f2fafb;
+/*Schriftgrössen und schwarze Titel*/
+
+label {
+    font-size: 13.5px;
 }
 
+.form .form--row .form--column .form--label, .form .form--row .form--column .form--message {
+    font-size: 13.5px;
+}
 
+vaadin-checkbox label {
+    font-size: 13.5px;
+}
 
-/*Farbe von Dokumenttitel 1*/
+.form .level_2 .title {
+    font-size: 13.5px;
+}
+
+vaadin-checkbox.title.title__medium label {
+    color: #141412;
+}
+
 .title.title__big {
   color: #141412;
 }
 
-/*Farbe von Dokumenttitel 2*/
 .title.title__medium {
   color: #141412;
 }
@@ -230,19 +242,6 @@ body {
 }
 
 
-/*ANLAGEN SIDE-MENU*/
-
-/*Hintergrundfarbe*/
-#collabViewLayout {
-  background: #ffffff !important;
-}
-
-/*Schriftfarbe anpassen*/
-.title-no-padding {
-  color: #338da5;
-}
-
-
 /*NEUER GEVO MENÜ*/
 
 /*Titel linksbündig machen --> Sollte in Standard*/
@@ -250,23 +249,4 @@ body {
   padding-left: 0px !important;
 }
 
-/*einzuordnen*/
 
-label {
-    font-size: 13.5px;
-}
-.form .form--row .form--column .form--label, .form .form--row .form--column .form--message {
-    font-size: 13.5px;
-}
-
-vaadin-checkbox label {
-    font-size: 13.5px;
-}
-
-.form .level_2 .title {
-    font-size: 13.5px;
-}
-
-vaadin-checkbox.title.title__medium label {
-    color: #141412;
-}
