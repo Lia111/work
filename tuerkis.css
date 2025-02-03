@@ -18,7 +18,7 @@ body {
     --lumo-font-size-xs: 12px;
     --lumo-font-size-s: 13.5px;
     --lumo-font-size-m: 13.5px; /*nur für Warnung oder sonst noch etwas?*/
-    --loading-indicator-color: #cce6e9; /*tint of #00818f*/
+    --loading-indicator-color: #b9eaf0; /*etwas heller und greller als #00818f*/
     --menu-bar-item-color: #00818f; /*dunkleres türkis von webseite*/
 }
 
