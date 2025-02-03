@@ -17,7 +17,7 @@ body {
     --lumo-primary-contrast-color: #00818f; /*dunkleres türkis z.B. für Haken in Checkbox*/
     --lumo-font-size-xs: 12px;
     --lumo-font-size-s: 13.5px;
-    --lumo-font-size-m: 14.5px; /*nur für Warnung oder sonst noch etwas?*/
+    --lumo-font-size-m: 13.5px; /*nur für Warnung oder sonst noch etwas?*/
     --loading-indicator-color: #9ADCFF; /*könnten wir noch anpasssen*/
     --menu-bar-item-color: #00818f; /*dunkleres türkis von webseite*/
 }
