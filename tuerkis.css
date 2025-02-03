@@ -71,18 +71,18 @@ body {
 
 /*INFO UND WARNMELDUNGEN*/
 
-/*Standardfeldbezeichnung ausblenden*/
+/*Standardfeldbezeichnung ausblenden --> Standard oder Konfig?*/
 .sfc-WARNING {
   -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "WARNUNG"*/
   width: 0px; /*damit Box ausgeblendet wird und Warnmeldetext linksbÃ¼ndig*/
 }
 
-/*Strich unter Warnung entfernen*/
+/*Strich unter Warnung entfernen --> Standard oder Konfig?*/
 .column.form--column.sfc-WARNING {
   border-bottom-color: transparent  !important; /*Farbe Underline der Warnmeldung anpassen*/
 }
 
-/*Für Warnungstext */
+/*Für Warnungstext --> Standard oder Konfig?*/
 .sfc-WARNING.S_WARNING textarea {
   -webkit-text-fill-color: #E1100A;
   font-weight: bold !important;
@@ -90,7 +90,7 @@ body {
   padding-top: 15px;
 }
 
-/*Für Infotext*/
+/*Für Infotext --> Standard oder Konfig?*/
 .sfc-INFO.S_INFOMELDUNG textarea {
   -webkit-text-fill-color: #0e46a1 !important;
   font-weight: bold !important;
@@ -98,40 +98,40 @@ body {
   padding-top: 15px;
 }
 
-/*Standardfeldbezeichnung ausblenden*/
+/*Standardfeldbezeichnung ausblenden --> Standard oder Konfig?*/
 .sfc-INFO {
   -webkit-text-fill-color: transparent !important; /*Farbe vom Labeltext "INFO"*/
   width: 0px; /*damit Box ausgeblendet wird und Infotext linksbÃ¼ndig*/
 }
 
-/*Strich unter Info entfernen*/
+/*Strich unter Info entfernen --> Standard oder Konfig?*/
 .form--column.sfc-INFO {
   border-bottom-color: transparent  !important; /*Farbe Underline der Infomeldung anpassen*/
 }
 
-/*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbÃ¼ndig mÃ¶glich*/
+/*Minimale Breite auf 0 gesetzt, damit Info und Warnmeldungen linksbÃ¼ndig möglich --> Standard oder Konfig?*/
 .form .form--row .form--column {
   min-width: 0px !important;
 }
 
-/*Anpassung Spaltenbreite Warnmeldung, damit gesamte LÃ¤nge genutzt wird bis zum Umbruch*/
+/*Anpassung Spaltenbreite Warnmeldung, damit gesamte LÃ¤nge genutzt wird bis zum Umbruch --> Standard oder Konfig?*/
 .column.form--column.column__grow.column__text_area.sfc-WARNING {
   min-width: 850px !important;
 }
 
-/*Anpassung Spaltenbreite Infomeldung, damit gesamte LÃ¤nge genutzt wird bis zum Umbruch*/
+/*Anpassung Spaltenbreite Infomeldung, damit gesamte LÃ¤nge genutzt wird bis zum Umbruch --> Standard oder Konfig?*/
 .column.form--column.column__grow.column__text_area.sfc-INFO {
   min-width: 850px !important;
 }
 
 /*BEARBEITUNGSBEREICH GEVO*/
 
-/*Gepunkteter Rahmen am Ende eines Abschnitts entfernen*/
+/*Gepunkteter Rahmen am Ende eines Abschnitts entfernen --> Standard oder Konfig?*/
 .row.top_container {
   border-bottom: none;
 }
 
-/*Schriftgrössen und schwarze Titel*/
+/*Schriftgrössen und schwarze Titel --> Im Standard lumo-font-size verwenden anstatt hart codieren?*/
 
 label {
     font-size: 13.5px;
