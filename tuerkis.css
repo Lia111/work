@@ -223,25 +223,6 @@ vaadin-checkbox.title.title__medium label {
 }
 
 
-/*Top linke Menüleiste weiss formatiert*/
-#fastentry-treegrid-container-buttoncontainer {
-  background-color: white;
-}
-
-
-/*KONTEXTMENÜ FÜR DRUCKVORSCHAU*/
-
-/*Hintergrundfarbe Druckvorschau Auswahlbereich*/
-.dialog-content-box .form.form__no-margin-bottom.namedcopyplugin-content {
-  background-color: #f5f5f5 !important;
-}
-
-/*Hintergrundfarbe Druckvorschau Auswahlbereich innen*/
-.dialog-content-box .column.form--column.column__grow {
-  background-color: #f5f5f5 !important;
-}
-
-
 /*NEUER GEVO MENÜ*/
 
 /*Titel linksbündig machen --> Sollte in Standard*/
