@@ -160,11 +160,3 @@ vaadin-checkbox.title.title__medium label {
 }
 
 
-/*NEUER GEVO MENÜ*/
-
-/*Titel linksbündig machen --> Sollte in Standard*/
-#LabelTitleMainContractDataView {
-  padding-left: 0px !important;
-}
-
-
