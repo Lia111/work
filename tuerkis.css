@@ -58,6 +58,7 @@ body {
 .button.button__primary {
   background-color: #46A9B4 !important; /*Hintergrundfarbe*/
   color: #ffffff !important; /*Textfarbe in Button*/
+  font-size: 13.5px !important;
 }
 
 .button.button__primary:hover {
@@ -68,6 +69,9 @@ body {
     background-color: #e0e0e0 !important;
 }
 
+.button.button__secondary {
+    font-size: 13.5px !important;
+}
 
 /*INFO UND WARNMELDUNGEN*/
 
