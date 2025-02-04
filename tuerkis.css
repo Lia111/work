@@ -153,6 +153,16 @@ vaadin-checkbox label {
     font-size: 13.5px;
 }
 
+vaadin-grid vaadin-grid-cell-content vaadin-grid-sorter
+{
+   font-size: 13.5px;
+}
+ 
+vaadin-grid vaadin-grid-cell-content div div
+{
+   font-size: 13.5px;
+}
+
 vaadin-checkbox.title.title__medium label {
     color: #141412;
 }
