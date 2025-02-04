@@ -153,6 +153,11 @@ vaadin-checkbox label {
     font-size: 13.5px;
 }
 
+vaadin-grid-cell-content vaadin-grid-tree-toggle vaadin-horizontal-layout vaadin-horizontal-layout label
+{
+  font-size: 13.5px !important;
+}
+
 vaadin-grid vaadin-grid-cell-content vaadin-grid-sorter
 {
    font-size: 13.5px;
