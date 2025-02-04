@@ -87,7 +87,6 @@ body {
   -webkit-text-fill-color: #E1100A;
   font-weight: bold !important;
   padding-left: 0px;
-  padding-top: 15px;
 }
 
 /*Für Infotext --> Standard oder Konfig?*/
@@ -95,7 +94,6 @@ body {
   -webkit-text-fill-color: #0e46a1 !important;
   font-weight: bold !important;
   padding-left: 0px;
-  padding-top: 15px;
 }
 
 /*Standardfeldbezeichnung ausblenden --> Standard oder Konfig?*/
