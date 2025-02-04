@@ -142,6 +142,7 @@ label {
 
 .form .form--row .form--column .form--label, .form .form--row .form--column .form--message {
     font-size: 13.5px;
+    padding-top: 10px; /*für Gevo Suche Feld Policennummer / Rechtsträger / Branche / Produkt*/
 }
 
 vaadin-checkbox label {
