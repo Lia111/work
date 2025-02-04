@@ -20,7 +20,7 @@ body {
     --lumo-font-size-m: 13.5px; /*nur für Warnung oder sonst noch etwas?*/
     --loading-indicator-color: #b9eaf0; /*etwas heller und greller als #00818f*/
     --menu-bar-item-color: #00818f; /*dunkleres türkis von webseite*/
-    --lumo-size-m: 30px;
+    --lumo-size-m: 30px; /*button size*/
 }
 
 /*LOGINSEITE*/
