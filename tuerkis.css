@@ -175,4 +175,7 @@ vaadin-checkbox.title.title__medium label {
   color: #141412;
 }
 
-
+/*Titelgrösse an medium angleichen*/
+.title.title__small {
+  font-size: 15px;
+}
