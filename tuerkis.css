@@ -74,6 +74,9 @@ body {
     font-size: 13.5px !important;
 }
 
+[role=button] {
+    font-size: 13.5px;
+}
 /*INFO UND WARNMELDUNGEN*/
 
 /*Standardfeldbezeichnung ausblenden --> Standard oder Konfig?*/
